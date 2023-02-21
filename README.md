@@ -4,7 +4,7 @@ For the peer graded assignment, please refer to the R code (run_analysis.R), cod
 
 ## Files:
 ### run_analysis.R
-This script requires the installation of the 'dplyr' package. \
+This script requires the installation of the 'dplyr' and 'tidyverse' package. \
 run_analysis.R contains the process which I took to extract the tidy dataset file from the source file, available at: \
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip \
 A detailed description can be found at their site: \
