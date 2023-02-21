@@ -1,4 +1,5 @@
 library(dplyr)
+library(tidyverse)
 # Part 0: Reading datasets from unzipped UCI HAR Dataset file
 #setwd()
 rm(list = ls())
