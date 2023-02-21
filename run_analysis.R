@@ -1,10 +1,12 @@
 library(dplyr)
 # Part 0: Reading datasets from unzipped UCI HAR Dataset file
-setwd("C:/Users/Jim/OneDrive/桌面/Academia/Data_Science_Specialization/03_Getting_and_Cleaning_Data/W4/Getting_and_Cleaning_Data_Course_Project/Getting_and_Cleaning_Data_Course_Project")
+#setwd()
 rm(list = ls())
 
 ## Read features.txt and activity_labels.txt
+## In the following line, navigate from your current working directory to UCI HAR Dataset, and the rest of the code should work.
 setwd("../UCI HAR Dataset")
+
 activities_labels <- read.table("activity_labels.txt", col.names = c("activity_index", "activity"))
 features <- read.table("features.txt", col.names = c("function_index","functions"))
 
